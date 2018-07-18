@@ -3,9 +3,10 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "PhysicsEngine/PhysicsHandleComponent.h"
+#include "Components/InputComponent.h"
 #include "Components/ActorComponent.h"
 #include "Grabber.generated.h"
-
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class MYPROJECT2_API UGrabber : public UActorComponent
@@ -26,6 +27,18 @@ public:
 private:
 	float Reach = 100.f;
 
-		
 	
+	UPhysicsHandleComponent * PhysicsHandel = nullptr;
+	
+	UInputComponent * InputComponents = nullptr;
+	//Raycast grab
+	void Grab();
+	// Ray cast release
+	void Release();
+	void PhysicsComponents();
+	//Setup inputs
+	void SetupInputComponent();
+
+	// return hit for first physics body in reach
+	const FHitResult GetFirstPhysicsBodyInReach();
 };

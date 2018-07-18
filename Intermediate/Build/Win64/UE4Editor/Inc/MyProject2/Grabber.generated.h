@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MYPROJECT2_Grabber_generated_h
 
-#define MyProject2_Source_MyProject2_Grabber_h_13_RPC_WRAPPERS
-#define MyProject2_Source_MyProject2_Grabber_h_13_RPC_WRAPPERS_NO_PURE_DECLS
-#define MyProject2_Source_MyProject2_Grabber_h_13_INCLASS_NO_PURE_DECLS \
+#define MyProject2_Source_MyProject2_Grabber_h_14_RPC_WRAPPERS
+#define MyProject2_Source_MyProject2_Grabber_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define MyProject2_Source_MyProject2_Grabber_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUGrabber(); \
 	friend MYPROJECT2_API class UClass* Z_Construct_UClass_UGrabber(); \
@@ -25,7 +25,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define MyProject2_Source_MyProject2_Grabber_h_13_INCLASS \
+#define MyProject2_Source_MyProject2_Grabber_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesUGrabber(); \
 	friend MYPROJECT2_API class UClass* Z_Construct_UClass_UGrabber(); \
@@ -35,7 +35,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define MyProject2_Source_MyProject2_Grabber_h_13_STANDARD_CONSTRUCTORS \
+#define MyProject2_Source_MyProject2_Grabber_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UGrabber(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGrabber) \
@@ -48,7 +48,7 @@ private: \
 public:
 
 
-#define MyProject2_Source_MyProject2_Grabber_h_13_ENHANCED_CONSTRUCTORS \
+#define MyProject2_Source_MyProject2_Grabber_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UGrabber(UGrabber&&); \
@@ -59,26 +59,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGrabber); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UGrabber)
 
 
-#define MyProject2_Source_MyProject2_Grabber_h_13_PRIVATE_PROPERTY_OFFSET
-#define MyProject2_Source_MyProject2_Grabber_h_10_PROLOG
-#define MyProject2_Source_MyProject2_Grabber_h_13_GENERATED_BODY_LEGACY \
+#define MyProject2_Source_MyProject2_Grabber_h_14_PRIVATE_PROPERTY_OFFSET
+#define MyProject2_Source_MyProject2_Grabber_h_11_PROLOG
+#define MyProject2_Source_MyProject2_Grabber_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	MyProject2_Source_MyProject2_Grabber_h_13_PRIVATE_PROPERTY_OFFSET \
-	MyProject2_Source_MyProject2_Grabber_h_13_RPC_WRAPPERS \
-	MyProject2_Source_MyProject2_Grabber_h_13_INCLASS \
-	MyProject2_Source_MyProject2_Grabber_h_13_STANDARD_CONSTRUCTORS \
+	MyProject2_Source_MyProject2_Grabber_h_14_PRIVATE_PROPERTY_OFFSET \
+	MyProject2_Source_MyProject2_Grabber_h_14_RPC_WRAPPERS \
+	MyProject2_Source_MyProject2_Grabber_h_14_INCLASS \
+	MyProject2_Source_MyProject2_Grabber_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define MyProject2_Source_MyProject2_Grabber_h_13_GENERATED_BODY \
+#define MyProject2_Source_MyProject2_Grabber_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	MyProject2_Source_MyProject2_Grabber_h_13_PRIVATE_PROPERTY_OFFSET \
-	MyProject2_Source_MyProject2_Grabber_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	MyProject2_Source_MyProject2_Grabber_h_13_INCLASS_NO_PURE_DECLS \
-	MyProject2_Source_MyProject2_Grabber_h_13_ENHANCED_CONSTRUCTORS \
+	MyProject2_Source_MyProject2_Grabber_h_14_PRIVATE_PROPERTY_OFFSET \
+	MyProject2_Source_MyProject2_Grabber_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	MyProject2_Source_MyProject2_Grabber_h_14_INCLASS_NO_PURE_DECLS \
+	MyProject2_Source_MyProject2_Grabber_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
