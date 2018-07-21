@@ -3,7 +3,7 @@
 /MACHINE:x64
 /SUBSYSTEM:WINDOWS
 /DEF
-/NAME:"UE4Editor-MyProject2.dll"
+/NAME:"UE4Editor-MyProject2-2121.dll"
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
@@ -19,4 +19,4 @@
 "C:\Users\Icy\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\UE4Editor\Development\MyProject2\PositionReporter.gen.cpp.obj"
 "C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\MyProject2\PCLaunch.rc.res"
 "C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
-/OUT:"C:\Users\Icy\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MyProject2.lib"
+/OUT:"C:\Users\Icy\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MyProject2-2121.lib"
